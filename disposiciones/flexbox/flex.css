@@ -1,0 +1,65 @@
+.flex {
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    margin: 5px;
+
+}
+/*El flex lo que hará es ordernar todo los contenidos*/
+/*Acorde a los ejes, el justify-content, posiciona con relacion al eje principal (horizontal)-- Lo mas comun es star */
+
+/*el space-between es para que abarque todo el espacio, al igual que el space-around*/
+
+/*De esta manera es posible que sea adaptable, ya que se redimensiona acorde a la vista que tenga. */
+.content-1 {
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border: 2px solid blue;
+    margin: 5px 5px;
+}
+
+.content-2 {
+    background-color: white; 
+    height: 300px;
+    width: 200px;
+    border: 2px solid blue;
+    margin: 5px 5px;
+}
+
+.content-3 {
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border: 2px solid blue;
+    margin: 5px 5px;
+}
+
+.otroflex {
+    display: flex;
+    background-color: greenyellow;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+ /*Esta última propiedad nos permite ajustar los elemtos aunque pierdan su tamaño flex-wrap :nowrap;*/ 
+ /* Pero el  wrap nos permite mantener nuestas medidas y seguir posicionarlos en oprden, ya sea vertical u horizontal*/
+
+ .otroflex-2 {
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+    margin: 5px;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-direction: column;
+ }
+
+ /*row revers es para cambiar el order
+ flex.direcction colum, nos cambia los ejes*/
+
+ /*Align-items: nos permite jugar con la posición de nuestro contenido, ojo, esto altera todo*/
+
+ /*https://codepen.io.enxadeta/full/adLPwv*/ 
+ /*En ese link podemos ver todos los posicionamientos posibles*/

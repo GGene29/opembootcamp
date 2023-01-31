@@ -1,0 +1,14 @@
+.hover {
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    
+}
+
+p:hover {
+    color: black;
+    font-size: small;
+}

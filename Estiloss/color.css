@@ -1,0 +1,39 @@
+* {
+    padding: 5px;
+    background-color:antiquewhite;
+}
+
+.titulo {
+    color: #bce784; /*Colores hexadecimales*/
+}
+
+.rgb { 
+    color: rgb(124, 26, 146); /*Trabja por combinación de colores, en este caso es rojo, verde, azul*/
+
+}
+
+.predeterminado {
+    color:blue;
+}
+/*Esto es para la lista de colores que ofrece css*/
+.rgba {
+    color: rgba(80, 30, 10, 0.10);
+}
+/*Esto es para agregar transparencia */
+
+/* --
+La etiqueta color solo afecta al texto, vamos con los fondos*/
+
+.fondo1{
+    color: rgb(4, 31, 31);
+    background-color:rgb(68, 24, 28);
+    background-image: url(https://th.bing.com/th/id/R.abb170189420ae29d2352e13bd2964bb?rik=uRrXz2Xs4PQ4mw&pid=ImgRaw&r=0);
+}
+
+
+.fondo2 {
+    background-image: url(/Estiloss/imagenfondo/div2.jpg);
+}
+
+
+    

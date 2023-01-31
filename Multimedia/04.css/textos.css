@@ -1,0 +1,35 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,700&display=swap');
+  /*Esta es la otra manera, esto engloba todo el contenido*/
+    margin: 5px;
+   padding: 10px 5px;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: blue;
+}
+
+h3 {
+    font-family: cursive; /*Estilo*/
+    font-size: medium; /*Tamaño*/
+    font-weight: 300; /*peso (relleno)*/
+    color: darkslategray; /*Color*/
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+.goo {
+    font-family: 'Roboto Condensed', sans-serif; /*Fuentes extraídas desde fuera*/
+}
+/*Los identificadores unicos se llaman con #*/
+
+#otra{
+    color:purple;
+}

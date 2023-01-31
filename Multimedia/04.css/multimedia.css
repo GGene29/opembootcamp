@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:azure;
+    
+}
+
+h1 {
+    font-family: fantasy;
+    color:deepskyblue
+}
+
+.principal {
+   width: 100vw; /*viword with = el 100% de toda la pantalla. medida 0vm*/
+   opacity: 0.3; /*Con esta propiedad se asigna la opacidad, se mide entre 0 y uno, opacidad 0 es transparencia total y 1 la imagen normal, ejemplo 0.5 se aprecia la opacidad*/
+
+}
+ /*HOVER= se le asigna tiempo o funciones, para que cuando el cursor este encima cambie a lo que asignemos, como trabajar con una plantilla bajo nuestras propiedades*/
+.principal:hover {
+    opacity: 1;
+}
+
+.cobertor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /*Seraciones internas*/
+}
+
+.galeria {
+    width: 400px;
+}
+
+.galeria:hover {
+    opacity: 0.3;
+    cursor:pointer; /*Para que el cursor cambie de flecha a mano*/
+}
+
+.video {
+    width: 80vw;
+    height: 80vw;
+    object-fit: cover; /*esto es para que no se comprima nuestro contenido*/
+    position: fixed;
+    
+   
+}
+
+.Titulo {
+    height: 100vw;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+    

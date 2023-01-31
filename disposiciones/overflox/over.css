@@ -1,0 +1,54 @@
+*{
+    margin: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.otro {
+    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/*Corta todo lo sobrante, pero prima si ese contenido sobrante*/
+.contenedor-hidden {
+    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: hidden;
+} 
+/*Las barras para ver todo el contenido*/
+.contenedor-scroll {
+    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: scroll;
+}
+/*Normalmente es como viene por defecto*/
+.contenedor-visible {
+    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: visible;
+}
+/*Optimiza lo necesario para ver el contenido*/
+.contenedor-auto {
+    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: auto;
+}

@@ -1,0 +1,11 @@
+.p-contenedor {
+    color: blue;
+}
+
+.contenido p {
+    color: blueviolet;
+}
+
+p{
+    text-decoration: overline;
+}

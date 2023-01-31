@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades CSS</title>
+    <link rel="stylesheet" href="estilos.css"> <!--Esto es un enlace para añadir estilos internos-->
+    <!--tambien se trabajan con estilos externos de la misma manera pero con el link de la página-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    
+    <style>
+        body{
+            padding: 15px;
+        }
+        p {
+            color: red;
+        }
+ 
+    </style>  <!-- Esta otra forma de anexar estilos, es dentro del html-->
+</head>
+<body>
+    <p>Hola como estan todos, espero disfruten el agregado de estilos</p>
+    <h3>Práctica de Formulario</h3>
+        <form class="pure-form pure-form-stacked" action="resultados.html" method="GET"> <!--form = El que agrupa toda la información para el formulario-->
+        <div>
+            <label for="nombredeusuario"> Nombre de usuario</label> <!--Nos permite agregar atributos a nustros campos para luego poder hacerlo funcional-->
+            <input name="nombredeusuario" id="nombredeusuario" type="name" required>
+        </div>
+        <div>
+            <label for="nombredeusuario"> Nombre de usuario</label> <!--Nos permite agregar atributos a nustros campos para luego poder hacerlo funcional-->
+            <input name="nombredeusuario" id="nombredeusuario" type="name" required>
+        </div>
+        <button class="button-success pure-button" type="submit">Enviar</button> <!--Estilos agregados por el link de la página externa-->
+        <button type="submit" style="color: blueviolet; padding: 10px; margin: 5px; ">defecto</button> <!--estilo agregado de manera interna-->
+        <button type="submit">Otro</button> <!--Este es el que viene de manera predeterminada-->
+    <!--Pero lo mejor simpre es trabajar por medio de las hojas de estilos para evitar ensuciar nuestra hoja html, así mantenemos nuestro código pulcro-->
+    </form>
+</body>
+</html>

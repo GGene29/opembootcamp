@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="04.css/multimedia.css">
+    <title>Multimedia con HTML</title>
+</head>
+<body>
+       <!--Insertarlas-->
+    <h3>Imagen</h3>
+    <img src="Imagenes/descarga (1).png" alt="Logo CSS">
+    <!--insertar imagenes desde html-->
+    <h3>Vídeo</h3>
+    <!-- existen tres tipo de llamados de vídeo
+    como lo son el MP4 -- WEBN-- y el OGG-- son los que se soportan dentro de html5 -->
+    <video width="800" height="600" controls autoplay muted loop> <!--podemos manipular el tamaño del vídeo-->
+        <!-- mute, para que no este sonando sin previo aviso
+        el loop es para que se repita sin fin
+    controls para poder manipular el vídeo, se muestran los controles
+    autoply para su reproducción-->
+        <source src="Imagenes/presentacion.mp4" type="video/mp4" /> <!--Source = fuente-->
+    </video>
+    <audio controls loop>
+        <source src="Imagenes/ojos.mp3" type="audio/mp3" />
+    </audio>
+     
+    <!-- tambien se pueden trabjar con recursos externos-->
+
+    <!--Opacidad y galerias de imágenes-->
+    <h1>Prueba Imagenes, Vídeos, Audios</h1>
+    <img src="Imagenes/div2.jpg" alt="Fondo" class="principal">
+
+    <div class="cobertor"> <!--Esta será el cuadro para la futura galeria-->
+        <!--Imagenes dentro del cuadro de galeria-->
+        <img class="galeria" src="Imagenes/div2.jpg" alt="">
+        <img class="galeria" src="Imagenes/div2.jpg" alt="">
+        <img class="galeria" src="Imagenes/div2.jpg" alt="">
+        <img class="galeria" src="Imagenes/div2.jpg" alt="">
+        <img class="galeria" src="Imagenes/div2.jpg" alt="">
+        <img class="galeria" src="Imagenes/div2.jpg" alt="">
+    </div>
+
+    <!--Reproductores de Vídeo-->
+    <h1>Reproductor</h1>
+
+    <video class="video1" controls mute loop >
+        <source src="Imagenes/presentacion.mp4" type="video/mp4"/> 
+        
+    </video>
+    <div class="Titulo"> 
+        <h1>Hola GABO</h1>
+        <button>Llama a la acción</button>
+     </div>
+
+</body>
+</html>

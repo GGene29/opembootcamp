@@ -1,0 +1,66 @@
+body {
+    background-color:azure; 
+}
+/*Prueba de colores y letras */
+h1 {
+    color: blue;
+}
+p { /*color de las letras de los párrafos*/ 
+    color: blueviolet;
+    font-size: 16pt;
+} 
+/*Css trabjaa en cascada así que debes cuidar el orden*/
+/*Se trabaja por el nombre de la propiedad y luego el valor y al final el punto y como, muchos lenguajes trabajan de esta manera. */
+
+#primera-noticia{ /*id llamados por almodillas*/
+    color: red;
+}
+
+#segunda-noticia {
+    color: aqua;
+    font-size: 20pt;
+}
+
+.encabezado{  /*Clases llamadas por puntos*/
+    color:purple;
+  
+}
+
+*.lucete { /*Los asteriscos engloban, los ubican a todos es un selector universal*/
+    color: chartreuse;
+
+}
+ /*Estos próximos tres ejemplos me engloban varias clases, pero tienen el mismo estilo*/
+.autor{
+    color: darksalmon;
+}
+.fecha{
+    color: darkcyan;
+}
+.ubicacion{
+    color: chocolate;
+}
+
+/*Para que distintos sean iguales, simplemente agrupamos*/
+
+.autor, .fecha, .encabezado, .ubicacion, h1 {
+    text-decoration: underline;
+}
+.libro {
+    /*Orilla de nuestro bloque, border*/
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    /* Asignación de alturas y anchuras. Padding y Margin*/
+    /* padding es el margen interno, hacia el centro. El MARGIN es margen externo, hacia afuera*/
+     padding: 10px 20px 30px 40px;
+     /*con padding solo es en general*/
+     /*dos valores es; arriba y abajo, el segundo lados*/
+     /*tres; arriba, lados y abajo*/
+     /*cuatro; arriba derecha abajo izquierda*/
+     /*El más usado es 10, 20. con el genérico*/
+     background-color: antiquewhite;
+     margin: 5px;
+}
+
+/*FUENTES EN CSS*/

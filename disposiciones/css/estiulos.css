@@ -1,0 +1,22 @@
+* {
+    margin: 10px;
+    padding: 5px;
+}
+
+.div-1, .div-2 {
+    background-color: red;
+    /*por defecto los div vienen con display block*/
+    /*Las imagenes igual, asi que podemos jugar con ellas*/
+}
+/*Los display inline, por ejemplo los span los tienen, y no te dejan jugar son los tamaños tan libres como los otros*/
+
+
+.otro {
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    color: blueviolet;
+}
+
+/*Ya las posiciones van con float, derecha izquierda arriba y abajo, para controlar la posición de los elementos*/
+/*Pero con display flex es mejor y más optimo*/

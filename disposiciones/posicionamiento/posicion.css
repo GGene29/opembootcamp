@@ -1,0 +1,51 @@
+div{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid gray;
+}
+
+/*sticky, posicionamiento pegajoso, ideal cuando queremos que la barra de navegación siempre este*/
+h1 {
+    position: sticky;
+    top: 0px;
+    background-color: darkblue;
+    color: white;
+    z-index: 5px;
+}
+
+/*
+.stiky {
+    position: sticky;
+    background-color: blanchedalmond;
+    z-index: 10px; esto enmarca prioridad de vistas
+    color: white;
+    top: 0px;
+   
+}
+*/
+ /*Estas propiedades permitiran que se queda siempre arriba*/
+
+/*Posicionamiento relativo, se realia en condición al posicionamiento original*/
+.relative {
+    padding: 5px;
+    position: relative;
+    /*las posiciones realmente son las primeras 5 */
+    left: 80px; /*esto es para asignarle distancias, posicionamiento*/
+}
+/*Posicionamiento fijo en relación a la pantalla*/
+.fixed {
+    position: fixed;
+    bottom: 0px;/*Abajo del todo*/ /*se le dice exactamente donde queremos que este, siempre*/
+    left: 0px;  /*A la izquierda del todo*/
+    background-color: aquamarine;
+}
+
+.absolute {
+    position: absolute;
+    
+    background-color: blue;
+}
+.absolut {
+    background-color: coral;
+    color: white;
+}
