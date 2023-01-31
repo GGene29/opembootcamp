@@ -1,0 +1,53 @@
+.contenedor {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+span.frase {
+    font-style: italic;
+}
+
+span.frase::before {
+    content: '<<';
+    font-size: xx-small;
+}
+
+span.frase::after {
+    content: '>>';
+    font-size: xx-small;
+}
+
+/*El content nos permite agregar a todo lo que los selecciones
+siempre tendra un antes BEFORE y un despues AFTER
+Estos son pseudoelementos.*/
+
+/*Este otro es usado también quizas con un poco de menos frecuencia, pero para no estar agregando letra a letra un estilo, lo anidamos con la pseudoclase first-letter*/
+
+.texto {
+    background-color: blanchedalmond;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.texto p::first-letter{
+    font-size: xx-large;
+    color: blue;
+}
+/*Ahorramos código tiempo y orden*/
+
+.texto p::first-line {
+    color: brown;
+}
+/*Esta es solo la primera linea*/
+
+.texto p::selection {
+    background-color: coral;
+    color: black;
+}
+/*Esto es para seleccionar al gusto del color que querras*/
+
+.listas li::marker{
+    color: red;
+}

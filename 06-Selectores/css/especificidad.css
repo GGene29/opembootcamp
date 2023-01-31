@@ -1,0 +1,32 @@
+#otro {
+    color: blue;
+
+}
+
+.principal {
+    color: green;
+}
+
+h1 {
+    color: blueviolet;
+}
+ p {
+    color: brown;
+ }
+
+ p {
+    color: black;
+
+ }
+
+ p{
+    color: brown;
+ }
+
+/*Si lo notas cada elemento agregado en nuestra hoja de estilos tiene numeros, por lo cual acorde a las posiciones del numero sera el tomado para asignarle su valor
+( 0 ,0 ,0)
+(0 , 1 , 0)
+(0 , 2 , 0) pondera más que el resto
+(0 , 0 , 1)*/
+
+/*La especificidad se puede aumentar según los identificadores que se le asignen. Si tiene un id, sera mayor que la clase, pero si los tiene a ambos; será aún mayor*/

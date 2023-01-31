@@ -1,14 +1,39 @@
+h1:first-child {
+color: chartreuse;
+}/*La pseudo-clase :first-child de CSS representa el primer elemento entre un grupo de elementos hermanos.*/
+p:first-child{
+    color: blue;
+}
+
+/*Si lo notas en este codigo existen dos h1 pero el solo tomara el primero*/
 .hover {
     width: 300px;
     height: 400px;
-    background-color: blueviolet;
+    background-color:papayawhip;
     margin: 0px;
     padding: 0px;
     color: white;
     
 }
-
-p:hover {
+/* Las pseudoclases se usan partiendo de dos puntos ":" 
+Unos de los más usados es el hover, que se activa cuando el ratón pasa justo por encima del elemento seleccionado*/
+.hover:hover{
     color: black;
     font-size: small;
+}
+a {
+    color: gray;
+}
+
+a:visited {
+    color: purple;
+} 
+/*Este pseudo es muy util para identificar las páginas que ya han sido visitadas en nuestra pagina web, podemos modificar su color para que este con mejor armonia con nuestra web*/
+a:hover{
+    background-color: darkcyan;
+
+}
+a:active{
+    color: red;
+    background-color: aliceblue;
 }
